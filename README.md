@@ -11,3 +11,18 @@ Analyze artists from popular Spotify playlists and estimate gender from first na
 - Aggregates counts and writes a summary to `output.txt`
 
 ## Example output
+Male: 42 (60.0%)
+Female: 25 (35.7%)
+Unknown: 3 (4.3%)
+
+## Setup
+
+### 1) Requirements
+- Python 3.10+
+- A Spotify Developer account and app
+- Packages: `spotipy`, `requests`, `python-dotenv` (optional but recommended)
+
+```bash
+python -m venv .venv
+source .venv/bin/activate
+pip install spotipy requests python-dotenv
